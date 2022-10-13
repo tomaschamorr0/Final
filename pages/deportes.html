@@ -14,7 +14,7 @@
 		<div class="container-fluid border-bottom border-dark border-5">
 			<div class="row ">
 				<div class="d-flex col-3 col-xl-2 justify-content-end mt-4 mb-4"><img src="../assets/images/Umbrella-Academy-Logo.png" width="100px" alt="LOGO"></div>
-				<div class="d-flex col-6 col-xl-4 fs-1 text mt-4 mb-4">THE UMBRELLA ACADEMY</div>
+				<div class="d-flex col-6 col-xl-4 fs-1 text mt-4 mb-4" id="nombre">THE UMBRELLA ACADEMY</div>
 				<div class="d-none d-xl-flex col-xl-6 justify-content-center align-item">
 					<ul class="nav text-uppercase" >
 						<li class="nav-item d-flex align-items-center ">
@@ -70,12 +70,12 @@
 		</div>
 	</header>
 	
-	<body>
+	<main>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12">
+				<div>
 					<div class="container-fluid">
-						<p class="text-uppercase fs-2 fw-bold text-decoration-underline text-center">Deportes</p>
+						<p class="text-uppercase fs-2 fw-bold text-decoration-underline text-center" id="tituloSecciones">Deportes</p>
 						<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 							<div class="carousel-indicators">
 							  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -83,23 +83,23 @@
 							  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 							</div>
 							<div class="carousel-inner rounded-3">
-							  <div class="carousel-item  active">
-								<img src="../assets/images/deportes/messi2.png" class="d-block w-100" alt="noticia_Messi">
-								<div class="carousel-caption d-none d-md-block">
-									<h5>Lionel Messi</h5>
-									<p>Marca 5 goles en un solo partido</p>
-								  </div>
-							  </div>
+							  	<div class="carousel-item  active">
+									<img src="../assets/images/deportes/messi2.png" class="d-block w-100" alt="noticia_Messi">
+									<div class="carousel-caption d-none d-md-block" id="textt">
+										<h5>Lionel Messi</h5>
+										<p>Marca 5 goles en un solo partido</p>
+									</div>
+							  	</div>
 							  <div class="carousel-item">
 								<img src="../assets/images/deportes/federer1.png" class="d-block w-100" alt="noticia_Federer">
-								<div class="carousel-caption d-none d-md-block">
+								<div class="carousel-caption d-none d-md-block" id="textt"> 
 									<h5>Roger Federer</h5>
 									<p>Impacto mundial: Se retira del tenis</p>
 								  </div>
 							  </div>
 							  <div class="carousel-item">
 								<img src="../assets/images/deportes/nadal1.png" class="d-block w-100" alt="noticia_Nadal">
-								<div class="carousel-caption d-none d-md-block" style="color:black;">
+								<div class="carousel-caption d-none d-md-block" id="textt">
 									<h5>Rafael Nadal</h5>
 									<p>se impuso a Casper Ruud, ganó su 14° trofeo de Roland Garros</p>
 								  </div>
@@ -119,7 +119,7 @@
 		</div>
 		<div class="container">
 			<div class="row mt-5">
-				<div class="col-md-4">
+				<div class="col-md-4" id="noticia">
 					<img alt="NoticiaUno" class="d-flex mx-auto d-block" src="../assets/images/deportes/noticia1.png" />
 					<h2>
 						España derrota a Estados Unidos
@@ -128,8 +128,8 @@
 						La selección de Jorge Vilda, jugando como si le fuera la vida en ello, gana a Estados Unidos, que se tomó el partido como una pachanga veraniega.
 					</p>
 				</div>
-				<div class="col-md-4">
-					<img alt="NoticiaDos" class="d-flex mx-auto d-block" src="../assets/images/deportes/noticia2.png" />
+				<div class="col-md-4"  id="noticia">
+					<img alt="NoticiaDos" class="d-flex mx-auto d-block rounded" src="../assets/images/deportes/noticia2.png" />
 					<h2>
 						Histórico oro para Uzbekistán
 					</h2>
@@ -137,8 +137,8 @@
 						Brasil y Uzbekistán suman su segundo oro en el Campeonato del Mundo de Judo de Taskent
 					</p>
 				</div>
-				<div class="col-md-4">
-					<img alt="NoticiaTres" class="d-flex mx-auto d-block" src="../assets/images/deportes/noticia3.png" />
+				<div class="col-md-4"  id="noticia">
+					<img alt="NoticiaTres" class="d-flex mx-auto d-block rounded" src="../assets/images/deportes/noticia3.png" />
 					<h2>
 						Inglaterra derriba el mito  y gana ante Alemania
 					</h2>
@@ -150,8 +150,8 @@
 		</div>
 		<div class="container">
 			<div class="row mt-4">
-				<div class="col-md-4">
-					<img alt="NoticiaCuatro" class="d-flex mx-auto d-block" src="../assets/images/deportes/noticia4.png" />
+				<div class="col-md-4"  id="noticia">
+					<img alt="NoticiaCuatro" class="d-flex mx-auto d-block rounded" src="../assets/images/deportes/noticia4.png" />
 					<h2>
 						Aston Martin ficha a Fernando Alonso
 					</h2>
@@ -159,8 +159,8 @@
 						Fernando Alonso ha fichado por Aston Martin para las siguientes temporadas de Fórmula 1 como sustituto de Vettel.
 					</p>
 				</div>
-				<div class="col-md-4">
-					<img alt="NoticiaCinco" class="d-flex mx-auto d-block" src="../assets/images/deportes/noticia5.png" />
+				<div class="col-md-4"  id="noticia">
+					<img alt="NoticiaCinco" class="d-flex mx-auto d-block rounded" src="../assets/images/deportes/noticia5.png" />
 					<h2>
 						El colombiano Nairo Quintana descalificado
 					</h2>
@@ -168,8 +168,8 @@
 						Fue descalificado del Tour de Francia 2022 tras haber dado positivo por tramadol.
 					</p>
 				</div>
-				<div class="col-md-4">
-					<img alt="noticiaSeis" class="d-flex mx-auto d-block" src="../assets/images/deportes/noticia6.png" />
+				<div class="col-md-4"  id="noticia">
+					<img alt="noticiaSeis" class="d-flex mx-auto d-block rounded" src="../assets/images/deportes/noticia6.png" />
 					<h2>
 						El Ciclón regresa a la elite del vóley nacional
 					</h2>
@@ -179,7 +179,7 @@
 				</div>
 			</div>
 		</div>
-	</body>
+	</main>
 
 	<footer>
   		<div class="container-fluid mt-5">
@@ -188,7 +188,7 @@
 	  		<div class="col-1 mt-4 mb-4"><a href="#"><img src="../assets/images/signo-de-twitter.png" alt="icono_twitter" width="40%"></a></div>
 	  		<div class="col-1 mt-4 mb-4"><a href="#"><img src="../assets/images/instagram.png" alt="icono_instagram" width="40%"></a> </div>
 	  		<div class="col-6 text-white text-center fs-6 fw-lighter mt-4">Copyright © TheUmbrellaAcademy 2022</div>
-	  		<div class="col-3 mt-4 mb-4"><img src="../assets/images/Umbrella-Academy-Logo.png" alt="logofinal" width="20%"></div>
+	  		<div class="col-3 mt-4 mb-4 d-flex justify-content-end"><img src="../assets/images/Umbrella-Academy-Logo.png" alt="logofinal" width="20%"></div>
   		</div>
 	</footer>
 
