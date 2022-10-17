@@ -1,0 +1,11 @@
+@font-face{
+    font-family:movlette;
+src: url("../assets/fonts/movie_letters/MovLette.ttf") format("truetype");
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    #nombre{
+        font-family: movlette;
+        font-family: to-upper-case($string: "");
+    }
+}

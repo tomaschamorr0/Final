@@ -1,0 +1,64 @@
+@import "./fuentes";
+header{
+    background-color:rgb(247, 101, 101) ;
+    font-size: 18px;
+    border-bottom: 5px solid black;
+    div{
+        ul{
+            li a.active, li a:hover{
+                background-color: #ffffff;
+                transition: .5s;
+                border-radius: 20px;
+            } 
+        }
+    }
+}
+main {
+    #textt :hover{
+        background-color: white;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color:black;
+    }
+    #tituloSecciones{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #noticia{
+        background-color: rgb(247, 101, 101);
+        padding-top: 20px;
+        border: 2px solid black;
+        img{
+            border: 4px solid black;
+        }
+        &:hover{
+            background-color: transparent;
+        }
+    }
+    #secciones{
+        background-color:rgb(247, 101, 101) ;
+        margin-left: 100px;
+        margin-right: 100px;
+        border: 3px solid black;
+        padding: 20px;
+    }
+    
+}
+footer{
+   background-color: gray;
+   }  
+ @media (max-width: 500px ) and (min-width:0px){
+    header{
+        height: 15vh;
+    }
+    main{
+        height: 75vh;
+    }
+    #secciones{
+        padding: 0;
+    }
+    footer{
+        height: 10vh;
+    }
+}
