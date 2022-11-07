@@ -51,15 +51,20 @@ footer {
 #bodynoti {
   height: 100vh; }
 
-#heaternoti {
-  height: 12vh;
+#headnoti {
+  height: 15vh;
   background-color: #f76565;
   font-size: 18px;
   border-bottom: 5px solid black; }
-  #heaternoti div ul li a.active, #heaternoti div ul li a:hover {
-    background-color: #ffffff;
-    transition: .5s;
-    border-radius: 20px; }
+  #headnoti div {
+    height: 100%; }
+    #headnoti div img {
+      max-width: 75%;
+      max-height: 75%; }
+    #headnoti div ul li a.active, #headnoti div ul li a:hover {
+      background-color: #ffffff;
+      transition: .5s;
+      border-radius: 20px; }
 
 #mainnoti {
   height: auto; }
@@ -67,3 +72,20 @@ footer {
 #footernoti {
   height: 12vh;
   background-color: gray; }
+  #footernoti div img {
+    width: 40%; }
+  #footernoti div #logofinal {
+    max-width: 75%;
+    max-height: 75%; }
+
+@media (max-width: 600px) {
+  #bodynoti {
+    height: 100vh; }
+  #headnoti {
+    height: 20vh;
+    width: 100%; }
+  #mainnoti {
+    height: auto; }
+  #footernoti {
+    width: 100%;
+    height: 12vh; } }
